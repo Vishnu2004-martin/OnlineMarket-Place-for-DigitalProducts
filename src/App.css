@@ -1,0 +1,52 @@
+/* Change the text color for the .App class */
+.background-cover {
+  background-image: url('Background.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(19, 187, 175); /* Change this color value to the color you want */
+}
+.background-cover {
+  background-size: cover;
+}
+.background-contain {
+  background-size: contain;
+}
+
+/* Change the text color for labels */
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  color: #ffd900; /* Change this color value to the color you want */
+}
+
+/* Change the text color for input elements */
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  color: #00FF00; /* Change this color value to the color you want */
+}
+
+/* Change the text color for buttons */
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db; /* Change this color value to the color you want */
+}
+
+/* Change the text color for .link-btn class */
+.link-btn {
+  background: none;
+  color: white; /* Change this color value to the color you want */
+  text-decoration: underline;
+}
